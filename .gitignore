@@ -1,0 +1,16 @@
+# Ignorer fichiers de l'IDE
+.idea/
+.venv/
+__pycache__/
+
+# Ignorer fichiers temporaires
+*.pyc
+*.pkl
+*.DS_Store
+*.ipynb_checkpoints
+
+# Rapport HTML si pas utile dans le repo
+expresso_churn_report.html
+# Dataset too large for regular Git
+Expresso_churn_dataset.csv
+
