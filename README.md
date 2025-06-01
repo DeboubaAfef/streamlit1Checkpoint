@@ -1,15 +1,33 @@
-# Expresso Customer Churn Prediction
-This project aims to predict customer churn using the Expresso Telecom dataset provided by Zindi. The solution involves data preprocessing, model training using RandomForestClassifier, evaluation, and deployment via a Streamlit web app.
-# Expresso Telecom Customer Churn Prediction
-**Project Overview**
-This project aims to predict customer churn for Expresso Telecom using the dataset provided by Zindi. The solution involves:
+# 📊 Expresso Churn Prediction Challenge
 
-Data preprocessing: Cleaning and transforming raw data to prepare for modeling
+This project aims to predict customer churn using the **Expresso Telecom** dataset from Zindi. The solution includes data preprocessing, feature engineering, model training with a `RandomForestClassifier`, evaluation, and deployment using a **Streamlit web app**.
 
-Model training: Using a RandomForestClassifier to learn patterns of churn behavior
+---
 
-Model evaluation: Assessing model accuracy, precision, recall, and other metrics
+## 🧠 Objective
 
-Deployment: Building an interactive web app with Streamlit to allow real-time churn predictions
+Predict whether a customer will churn (leave the service) based on their usage behavior, subscription type, and demographic information.
 
-The ultimate goal is to enable Expresso Telecom to proactively identify customers at risk of leaving and improve retention strategies.
+---
+## 📥 Download Dataset
+
+The file `Expresso_churn_dataset.csv` is too large for GitHub, so it's not included.
+
+🔗 [Download it from Zindi](https://zindi.africa/competitions/expresso-churn-prediction-challenge)
+➡️ You can download it manually from the:
+https://drive.google.com/file/d/12_KUHr5NlHO_6bN5SylpkxWc-JvpJNWe/view?usp=sharing
+
+📂 Once downloaded, place it in the root folder of the project (next to `train_model.py`).
+---
+## 🗂️ Project Structure 
+├── ExpressoChurnPrediction.py # Main training script
+├── streamlitprediction.py # Streamlit app for interactive prediction
+├── check_pkl_location.py # Utility to verify model file location
+├── requirements.txt # Python dependencies
+├── expresso_churn_report.html # EDA / profiling report
+├── .gitignore # Ignored files
+└── README.md # Project documentation
+🙋‍♀️ Author
+Afef Debouba
+GitHub: @DeboubaAfef
+
