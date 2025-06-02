@@ -16,11 +16,11 @@ print(df.shape)
 #from ydata_profiling import ProfileReport
 # Generate the profile report :
 # "explorative=True" :Activate advanced or in-depth analysis (explorative data analysis).
-#profile = ProfileReport(df, title="Expresso Churn Report", explorative=True)
+profile = ProfileReport(df, title="Expresso Churn Report", explorative=True)
 # Display the report
 #profile.to_notebook_iframe()
 # Save the report to an HTML file
-#profile.to_file("expresso_churn_report.html")
+profile.to_file("expresso_churn_report.html")
 #print("✔ Rapport generated succefully ! Open file expresso_churn_report.html")
 df_cleaned = df.copy() # Make a copy of data before  preprocessing
 # Handle Missing and corrupted values
