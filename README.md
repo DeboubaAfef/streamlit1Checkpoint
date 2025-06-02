@@ -24,10 +24,12 @@ https://drive.google.com/file/d/12_KUHr5NlHO_6bN5SylpkxWc-JvpJNWe/view?usp=shari
 ├── streamlitprediction.py # Streamlit app for interactive prediction
 ├── check_pkl_location.py # Utility to verify model file location
 ├── requirements.txt # Python dependencies
+├──  packages.txt  
 ├── expresso_churn_report.html # EDA / profiling report
 ├── .gitignore # Ignored files
 └── README.md # Project documentation
 🙋‍♀️ Author
+
 Afef Debouba
 GitHub: @DeboubaAfef
 
